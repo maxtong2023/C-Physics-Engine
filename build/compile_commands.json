@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/maxtong/Documents/Projects/physics_engine/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/physics_engine.dir/src/main.cpp.o -c /Users/maxtong/Documents/Projects/physics_engine/src/main.cpp",
+  "file": "/Users/maxtong/Documents/Projects/physics_engine/src/main.cpp",
+  "output": "CMakeFiles/physics_engine.dir/src/main.cpp.o"
+}
+]
