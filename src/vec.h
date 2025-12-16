@@ -7,7 +7,8 @@
 
 // some questions: 
 // 1. Why is const defined after a function definiton? What is the point of this 
-// 2.         vec(const vec& other); What is the purpose of this constructor?
+    // - const after a function definition is meant to force the compiler to understand that the function is read only. It's good practice. 
+// 2. vec(const vec& other); What is the purpose of this constructor?
 
 
 class vec {
@@ -70,9 +71,6 @@ class vec {
 
         bool operator==(const vec& other) const; 
         bool operator!=(const vec& other) const; 
-
-
-
 
 };
 
