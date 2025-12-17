@@ -8,4 +8,6 @@ add_executable(physics_engine
     src/main.cpp
     src/vec.cpp
     src/rigidbody.cpp
+    src/rigidbody.h
+    src/vec.h
 )
