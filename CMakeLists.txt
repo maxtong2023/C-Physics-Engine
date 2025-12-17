@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(physics_engine
     src/main.cpp
+    src/vec.cpp
+    src/rigidbody.cpp
 )

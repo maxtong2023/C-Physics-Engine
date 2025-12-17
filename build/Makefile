@@ -153,6 +153,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/physics_engine.dir/build.make CMakeFiles/physics_engine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/rigidbody.o: src/rigidbody.cpp.o
+.PHONY : src/rigidbody.o
+
+# target to build an object file
+src/rigidbody.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physics_engine.dir/build.make CMakeFiles/physics_engine.dir/src/rigidbody.cpp.o
+.PHONY : src/rigidbody.cpp.o
+
+src/rigidbody.i: src/rigidbody.cpp.i
+.PHONY : src/rigidbody.i
+
+# target to preprocess a source file
+src/rigidbody.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physics_engine.dir/build.make CMakeFiles/physics_engine.dir/src/rigidbody.cpp.i
+.PHONY : src/rigidbody.cpp.i
+
+src/rigidbody.s: src/rigidbody.cpp.s
+.PHONY : src/rigidbody.s
+
+# target to generate assembly for a file
+src/rigidbody.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physics_engine.dir/build.make CMakeFiles/physics_engine.dir/src/rigidbody.cpp.s
+.PHONY : src/rigidbody.cpp.s
+
+src/vec.o: src/vec.cpp.o
+.PHONY : src/vec.o
+
+# target to build an object file
+src/vec.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physics_engine.dir/build.make CMakeFiles/physics_engine.dir/src/vec.cpp.o
+.PHONY : src/vec.cpp.o
+
+src/vec.i: src/vec.cpp.i
+.PHONY : src/vec.i
+
+# target to preprocess a source file
+src/vec.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physics_engine.dir/build.make CMakeFiles/physics_engine.dir/src/vec.cpp.i
+.PHONY : src/vec.cpp.i
+
+src/vec.s: src/vec.cpp.s
+.PHONY : src/vec.s
+
+# target to generate assembly for a file
+src/vec.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physics_engine.dir/build.make CMakeFiles/physics_engine.dir/src/vec.cpp.s
+.PHONY : src/vec.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +213,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/rigidbody.o"
+	@echo "... src/rigidbody.i"
+	@echo "... src/rigidbody.s"
+	@echo "... src/vec.o"
+	@echo "... src/vec.i"
+	@echo "... src/vec.s"
 .PHONY : help
 
 

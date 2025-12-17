@@ -87,14 +87,14 @@ vec& vec::operator/=(double scalar){
 
 //vector operations
 
-double vec::dot(const vec& other){ 
+double vec::dot(const vec& other)  { 
     double xsum = x * other.x;
     double ysum = y * other.y; 
     return xsum + ysum; 
 
 }
 
-double vec::cross(const vec& other){
+double vec::cross(const vec& other) {
     double first = x * other.y; 
     double second = y * other.x; 
 

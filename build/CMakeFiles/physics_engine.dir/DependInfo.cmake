@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/maxtong/Documents/Projects/physics_engine/src/main.cpp" "CMakeFiles/physics_engine.dir/src/main.cpp.o" "gcc" "CMakeFiles/physics_engine.dir/src/main.cpp.o.d"
+  "/Users/maxtong/Documents/Projects/physics_engine/src/rigidbody.cpp" "CMakeFiles/physics_engine.dir/src/rigidbody.cpp.o" "gcc" "CMakeFiles/physics_engine.dir/src/rigidbody.cpp.o.d"
+  "/Users/maxtong/Documents/Projects/physics_engine/src/vec.cpp" "CMakeFiles/physics_engine.dir/src/vec.cpp.o" "gcc" "CMakeFiles/physics_engine.dir/src/vec.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
